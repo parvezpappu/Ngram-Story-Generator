@@ -1,0 +1,17 @@
+=== Preprocessing ===
+Vocabulary size: 3013
+Total tokens: 20811
+
+=== Text Generation (Laplace Smoothing) ===
+Seed: the king
+Generated: the king whereto returning sway rid then debt tapor burst slaues heard lodge vouchsafe peece taken hated beare sirra write superstitious behinde forme errands melancholies vnlesse faithfull going shapes listen
+
+=== Perplexity ===
+Test sentence: 'the king is dead'
+Perplexity: 3012.9990921833746
+
+=== Bonus  ===
+Generated (Interpolation): the king and he shall be satisfied and by that which he did the generall he would not haue it so bru i will not come to the capitoll to
+Perplexity (Interpolation): 370.23449103360576
+Comparison: The Laplace-smoothed story is more random and less coherent, because it contains many disconnected words and abrupt transitions. In contrast, the interpolation-based story is more fluent and more sentence-like, because it produces a more natural sequence from the same seed phrase. The perplexity of the Laplace model is 3012.9990921833746, which shows that it was much more uncertain on the 
+test sentence 'the king is dead'. The perplexity of the interpolation model is 370.23449103360576, which is much lower and therefore indicates better prediction of the same test sentence. Overall, the interpolation model performed better than the Laplace model in both generated text quality and perplexity value.
