@@ -1,6 +1,7 @@
 # N-gram Story Generator
 
-This project implements an N-gram Language Model from scratch using Python. It learns patterns from text data and generates a short story using unigram, bigram, and trigram probabilities.
+
+This is a Natural Language Processing (NLP) project that implements an N-gram Language Model from scratch using Python. It learns statistical patterns from text data and generates a short story using unigram, bigram, and trigram probabilities.
 
 ## Overview
 
